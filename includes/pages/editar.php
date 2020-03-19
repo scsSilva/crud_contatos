@@ -11,7 +11,7 @@
 </head>
 <body>
     <?php
-        include_once '../../database/connect.php';
+        require_once '../../database/connect.php';
 
         if(isset($_GET['id'])){
             $id = $_GET['id'];
